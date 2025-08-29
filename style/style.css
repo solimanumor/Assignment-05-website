@@ -1,0 +1,128 @@
+
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+
+.hind-madurai-light {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.hind-madurai-regular {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hind-madurai-medium {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.hind-madurai-semibold {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hind-madurai-bold {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* font 2 */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+body{
+    margin: 0;
+}
+/* Navbar style */
+.nav-bar-container{
+    display: flex;
+    padding: 25px 60px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navbar-right-elements{
+    display: flex;
+    gap: 20px;
+}
+.navbar-left-elements{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 92px;
+    width: 92px;
+}
+.title{
+    
+}
+.nav-title{
+    color: #006747;
+    font-size: 1.50rem;
+   
+}
+.navbar-element{
+    width: 125px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: rgba(65, 255, 107, 10%);
+    /* opacity: .1; */
+}
+.navbar-element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.icon-text{
+    font-weight: 600;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.copy-counter{
+    width: 125px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: #00A63E;
+    color: white;
+    text-align: center;
+}
+
+/* Banner style */
+.banner-container{
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, #013223, #006747, #013223);
+}
+.banner-img{
+    width: 92px;
+    height: 92px;
+}
+.banner-title{
+    font-size: 2.5rem;
+    color: white;
+}
+.banner-des{
+    font-size: 1.25rem;
+    color: white;
+}
