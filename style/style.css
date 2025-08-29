@@ -43,8 +43,27 @@
   
   font-style: normal;
 }
+
+/* font 3 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.roboto-roboto-3 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* body */
+
 body{
     margin: 0;
+    
 }
 /* Navbar style */
 .nav-bar-container{
@@ -127,3 +146,111 @@ body{
     font-size: 1.25rem;
     color: white;
 }
+
+/* Main style starts here */
+
+.emergency-services-container{
+    border: 2px solid red;
+     background-color: rgb(245, 255, 246, 100%) ;
+     padding: 40px 60px 85px;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 30px;
+     justify-content: center;
+   
+
+}
+.emergency-service-container{
+    
+    
+}
+.emergency-service{
+    border: 2px solid green;
+    width: 400px ;
+    height: 350px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px grey;
+    padding: 20px;
+    background-color: white;
+   
+}
+/* Emergency service icon */
+.services-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.icon-bg{
+    background-color: #FFE3E2;
+    height: 60px;
+    width: 60px;
+    border-radius: 16px;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.Icon-img{
+    width: 32px;
+    height: 32px;
+   
+}
+
+/* service-title */
+.service-title{
+    margin-bottom: 15px;
+}
+.service-name{
+    font-size: 1.5rem;
+}
+
+.service-des{
+    font-size: 1.12rem;
+    color: #5C5C5C;
+}
+
+/* service-number */
+.service-number{
+    margin-bottom: 15px;
+}
+.services-num{
+    font-size: 1.5rem;
+}
+.service-catagory{
+    background-color: #F2F2F2;
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 6px 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.catagory-text{
+    font-size: 1.12rem;
+}
+/* service call button */
+
+.copy-btn{
+    width: 190px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #5C5C5C;
+    border-radius: 8px;
+    color: #5C5C5C;
+    background-color: white;
+}
+.call-btn{
+    width: 190px;
+    height: 40px;
+    text-align: center;
+    background-color: #00A63E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
