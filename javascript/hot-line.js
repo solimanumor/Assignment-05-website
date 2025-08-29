@@ -86,9 +86,27 @@
     const newCall = document.createElement('div');
 
     newCall.classList.add('history-item');
+
+
+
+
+
+    
+
+    // *******************
+
     newCall.innerHTML = `
-      <strong>${serviceName}</strong> - ${serviceNumber} <span class="call-time">${timeNow}</span>
+      <div class="history-card">
+    <div class="history-info">
+      <div class="service-name">${serviceName}</div>
+      <div class="service-number">${serviceNumber}</div>
+    </div>
+    <div class="call-time">${timeNow}</div>
+  </div>
     `;
+    // newCall.innerHTML = `
+    //   <strong>${serviceName}</strong> <br> ${serviceNumber} <span class="call-time">${timeNow}</span>
+    // `;
     callHistoryList.appendChild(newCall);
   });
 
