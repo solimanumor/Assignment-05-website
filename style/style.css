@@ -193,6 +193,9 @@ body{
 
 
 }
+#icon-bg2{
+    background-color: #DFEFFF;
+}
 .Icon-img{
     width: 32px;
     height: 32px;
@@ -257,7 +260,7 @@ body{
 
 #call-history{
     grid-row: span 3;
-    height: 1205px;
+    height: 1200px;
 }
 .history{
     display: flex;
