@@ -257,16 +257,17 @@ body{
     border-radius: 8px;
 }
 /* span column for call history */
+.call-history-header{
+    display:flex; 
+    justify-content:space-between; 
+    align-items:center;
+}
 
 #call-history{
     grid-row: span 3;
     height: 1200px;
 }
-.history{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .btn-clear{
     border: none;
 }
