@@ -93,7 +93,7 @@
 
     
 
-    // *******************
+ 
 
     newCall.innerHTML = `
       <div class="history-card">
@@ -104,9 +104,7 @@
     <div class="call-time">${timeNow}</div>
   </div>
     `;
-    // newCall.innerHTML = `
-    //   <strong>${serviceName}</strong> <br> ${serviceNumber} <span class="call-time">${timeNow}</span>
-    // `;
+    
     callHistoryList.appendChild(newCall);
   });
 
