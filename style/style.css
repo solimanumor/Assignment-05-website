@@ -150,7 +150,7 @@ body{
 /* Main style starts here */
 
 .emergency-services-container{
-    border: 2px solid red;
+   
      background-color: rgb(245, 255, 246, 100%) ;
      padding: 40px 60px 85px;
      display: grid;
@@ -165,7 +165,7 @@ body{
     
 }
 .emergency-service{
-    border: 2px solid green;
+    
     width: 400px ;
     height: 350px;
     border-radius: 12px;
@@ -253,4 +253,17 @@ body{
     border: none;
     border-radius: 8px;
 }
+/* span column for call history */
 
+#call-history{
+    grid-row: span 3;
+    height: 1205px;
+}
+.history{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-clear{
+    border: none;
+}
